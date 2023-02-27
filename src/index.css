@@ -1,0 +1,38 @@
+body {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 7%);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.4rem;
+}
+
+input {
+    font-size: 1.3rem;
+}
+
+li {
+    font-size: 1.3rem;
+}
+
+.container {
+    max-width: 120rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-inputbtn {
+    display: flex;
+}
